@@ -78,11 +78,12 @@ TO_CHAR(timestamp, 'HH12:MI am or pm')   ## Result: 10:30 pm
 EXTRACT(component FROM timestamp)
 DATE_PART(component FROM timestamp)
 ```
-- Returns specific part of a timestamp
+- Returns specific part of a datetime
 - Relevant Components for Extraction:
+*note that outputs do not have leading 0s)
   - YEAR
-  - MONTH
-  - DAY
+  - MONTH 
+  - DAY 
   - HOUR
   - MINUTE
   - SECOND
@@ -93,7 +94,7 @@ DATE_TRUNC('date_part', datetime)
 ```
 - Returns date rounded to the relevant date part. Does NOT change the type
 - Relevant units for truncation:
-  - year
+  - year 
   - quarter
   - month
   - week
