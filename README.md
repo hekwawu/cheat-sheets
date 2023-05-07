@@ -1,2 +1,2 @@
 # cheat-sheets
-cheat sheets for different topics
+cheat sheets for different topics, being consistently updated
